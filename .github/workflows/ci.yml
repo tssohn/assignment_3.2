@@ -33,6 +33,7 @@ jobs:
             pytest -q
           else
             echo "No tests, skipping."
+          fi
 
   # (optional) deploy only after push to main
   deploy:
